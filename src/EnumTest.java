@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class EnumTest {
 
     public enum Day {
@@ -33,7 +35,16 @@ public class EnumTest {
     }
 
     public static void main(String[] args) {
-        EnumTest firstDay = new EnumTest(Day.MONDAY);
-        firstDay.tellItLikeItIs();
+        //EnumTest firstDay = new EnumTest(Day.MONDAY);
+        //firstDay.tellItLikeItIs();
+
+        Character [] caracteres = new Character[4];
+
+        caracteres[0] = 'A';
+        caracteres[1] = 'B';
+        caracteres[2] = 'C';
+        caracteres[3] = 'D';
+
+        System.out.println(caracteres.length);
     }
 }
